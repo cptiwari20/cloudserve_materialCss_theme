@@ -9,6 +9,16 @@
 header .showcase{
   margin-top: 100px;
 }
+.main-header-inner{
+  background-image: url(../img/header.jpeg);
+  min-height: 350px;
+  background-position: center;
+  background-size: cover;
+  color: #fff;
+}
+header .showcase-inner{
+  margin-top: 60px;
+}
 
 .active-link{
   color: #d847f1 !important;
@@ -42,6 +52,11 @@ header .showcase{
   position: relative;
   height: 200px;
 }
+
+.tabs .indicator{
+  background-color: purple;
+}
+
 @media (max-width: 500px) {
   .section-developer,
   .section-podcast{
