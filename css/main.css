@@ -56,6 +56,10 @@ header .showcase-inner{
 .tabs .indicator{
   background-color: purple;
 }
+.embed-btn{
+  display: block;
+  width: 100%;
+}
 
 @media (max-width: 500px) {
   .section-developer,
