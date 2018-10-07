@@ -27,7 +27,7 @@
             <li> <a href="solutions.html">Solutions</a> </li>
             <li> <a href="signup.html">SignUp</a> </li>
             <li>
-              <a href="#" class="btn purple">Login</a>
+              <a href="#login-modal" class="modal-trigger btn purple">Login</a>
             </li>
             <li>
               <a href="http://facebook.com">
@@ -63,7 +63,7 @@
               <div class="divider"></div>
             </li>
             <li>
-              <a href="#" class="btn purple">Login</a>
+              <a href="#login-modal" class="btn purple" class="modal-trigger">Login</a>
             </li>
           </ul>
         </div>
@@ -131,7 +131,7 @@
   <div class="primary-overlay valign-wrapper">
     <div class="container center">
       <div class="row">
-        <div class="s12">
+        <div class="col s12">
           <h4>For Devlopers, By developers</h4>
         </div>
       </div>
@@ -140,7 +140,8 @@
 </section>
 <!-- section; languages -->
 <section class="section grey lighten-2 section-languages">
-  <div class="container">
+  <div class="container center">
+    <h4> <span class="deep-purple-text">Work with</span> any Language </h4>
     <div class="row">
       <div class="col s2">
         <img src="img/nodejs.png"  class="responsive-img" alt="">
@@ -163,6 +164,123 @@
     </div>
   </div>
 </section>
+<!-- section:podcast -->
+<section class="section section-podcast white-text">
+  <div class="primary-overlay valign-wrapper">
+    <div class="container center">
+      <div class="row">
+        <div class="col s12 m8">
+          <h5>Listen to CloudServe Podcast</h5>
+          <p>Every Friday at about 3 pm IST</p>
+        </div>
+        <div class="col s12 m4">
+          <a href="#" class="btn purple"> <i class="fa fa-podcast"></i> Listen</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- section: testimonials -->
+<section class="section section-testimonial grey lighten-2">
+  <div class="container">
+    <div class="row">
+      <div class="col s12">
+        <div class="carousel carousel-slider center">
+          <div class="carousel-item" href="#one!">
+            <h3>Testimonial 1</h3>
+            <p class="flow-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commo.</p>
+            <p><em>-John Doe, The Web Designer</em></p>
+            <div class="carousel-fixed-item center hide-on-med-and-down">
+              <a href="#" class="btn grey">Read More</a>
+            </div>
+          </div>
+          <div class="carousel-item" href="#two!">
+            <h3>Testimonial 2</h3>
+            <p class="flow-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commo.</p>
+            <p><em>-John Kaney, Web developer</em></p>
+            <div class="carousel-fixed-item center hide-on-med-and-down">
+              <a href="#" class="btn grey">Read More</a>
+            </div>
+          </div>
+          <div class="carousel-item" href="#three!">
+            <h3>Testimonial 3</h3>
+            <p class="flow-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commo.</p>
+            <p><em>-Meeta Doe, Web Designer</em></p>
+            <div class="carousel-fixed-item center hide-on-med-and-down">
+              <a href="#" class="btn grey">Read More</a>
+            </div>
+          </div>
+          <div class="carousel-item" href="#four!">
+            <h3>Testimonial 4</h3>
+            <p class="flow-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commo.</p>
+            <p><em>-John F akendy Web Designer</em></p>
+            <div class="carousel-fixed-item center hide-on-med-and-down">
+              <a href="#" class="btn grey">Read More </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- section: footer -->
+<footer class="page-footer section deep-purple">
+   <div class="container">
+     <div class="row">
+       <div class="col l6 s12">
+         <h5 class="white-text">CloudServe</h5>
+         <p class="grey-text text-lighten-4">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliqui..
+         </p>
+       </div>
+       <div class="col l4 offset-l2 s12">
+         <h5 class="white-text">Links</h5>
+         <ul>
+           <li><a class="grey-text text-lighten-3" href="#!">Home </a></li>
+           <li><a class="grey-text text-lighten-3" href="#!">Solutions </a></li>
+           <li><a class="grey-text text-lighten-3" href="#!">SignUp </a></li>
+
+         </ul>
+       </div>
+     </div>
+   </div>
+   <div class="footer-copyright">
+     <div class="container">
+     CloudServe &copy; 2018
+     <a class="grey-text text-lighten-4 right" href="#!">Terms and conditions</a>
+     </div>
+   </div>
+ </footer>
+
+ <!-- login modal -->
+ <div id="login-modal" class="modal" >
+<div class="container">
+   <div class="model-content">
+     <h4>Please login to get into Dashboard</h4>
+       <form>
+         <div class="input-field">
+           <input type="email" name="email" id='email'>
+           <label for="email">Email</label>
+         </div>
+         <div class="input-field">
+           <input type="password" name="password" id='password'>
+           <label for="password">Password</label>
+         </div>
+       </form>
+     </div>
+   <div class="modal-footer">
+     <a href="#!" class="btn grey">
+       <i class="fa fa-sync"></i>
+       Reset Password
+     </a>
+     <a href="#!" class="btn purple">
+       <i class="fa fa-lock"></i>
+       Login
+     </a>
+   </div>
+ </div>
+ </div>
 
 <body>
 
@@ -173,6 +291,11 @@
     $(document).ready(function () {
       // Custom JS & jQuery here
     $('.sidenav').sidenav();
+    $('.carousel.carousel-slider').carousel({
+      fullWidth: true,
+      indicators: true
+     });
+     $('.modal').modal();
     });
   </script>
 </body>

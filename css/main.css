@@ -34,5 +34,17 @@ header .showcase{
   overflow: hidden;
   border-top: #8a41f1 solid 3px;
   border-bottom: #8a41f1 solid 3px;
-
+}
+.section-podcast {
+  background-image: url(../img/circuit.jpeg);
+  background-position: center;
+  background-size: cover;
+  position: relative;
+  height: 200px;
+}
+@media (max-width: 500px) {
+  .section-developer,
+  .section-podcast{
+    min-height: 250px
+  }
 }
