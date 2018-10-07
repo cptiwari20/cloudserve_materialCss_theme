@@ -1,3 +1,4 @@
+
 .main-header{
   background-image: url(../img/header.jpeg);
   min-height: 600px;
@@ -13,4 +14,25 @@ header .showcase{
   color: #d847f1 !important;
   border-bottom: #d847f1 2px solid !important;
   font-weight: 600 !important;
+}
+
+.section-developer {
+  background-image: url(../img/code.jpg);
+  background-position: center;
+  background-size: cover;
+  position: relative;
+  height: 200px;
+}
+
+.primary-overlay{
+  background: rgba(111, 81, 176, 0.8);
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  left: 0;
+  top: 0;
+  overflow: hidden;
+  border-top: #8a41f1 solid 3px;
+  border-bottom: #8a41f1 solid 3px;
+
 }
